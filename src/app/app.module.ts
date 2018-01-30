@@ -3,17 +3,19 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { NovoCartaoComponent } from './novo-cartao/novo-cartao.component';
-import { MuralComponent } from './mural/mural.component';
+import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
+import { FormNovoCartaoComponent } from './components/form-novo-cartao/form-novo-cartao.component';
+import { MuralComponent } from './components/mural/mural.component';
+import { CartaoComponent } from './components/cartao/cartao.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    NovoCartaoComponent,
-    MuralComponent
+    CabecalhoComponent,
+    FormNovoCartaoComponent,
+    MuralComponent,
+    CartaoComponent
   ],
   imports: [
     BrowserModule
