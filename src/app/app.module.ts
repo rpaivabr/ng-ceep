@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { NovoCartaoComponent } from './novo-cartao/novo-cartao.component';
+import { MuralComponent } from './mural/mural.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    NovoCartaoComponent,
+    MuralComponent
   ],
   imports: [
     BrowserModule
